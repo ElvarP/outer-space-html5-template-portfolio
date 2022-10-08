@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Outer Space HTML5 Template (Portfolio)</title>
+		<link rel="stylesheet" href="css/main.css" />
+		<script type="module" defer src="js/navigation.js"></script>
+
+		<!-- https://fonts.gstatic.com is the font file origin -->
+		<!-- It may not have the same origin as the CSS file (https://fonts.googleapis.com) -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+		<!-- We use the full link to the CSS file in the rest of the tags -->
+		<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;900&display=swap" />
+
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;900&display=swap" media="print" onload="this.media='all'" />
+
+		<noscript>
+			<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;900&display=swap" />
+		</noscript>
+	</head>
+	<body class="font-poppins">
+		<nav id="navigation" class="origin-top-right md:origin-top -translate-y-full fixed top-0 left-0 right-0 bottom-0 bg-stone-900 transition-all flex flex-col p-6 items-center justify-center">
+			<ul id="navigationClickLink" class="list-decimal list-inside flex flex-col gap-3 marker:text-stone-400 marker:text-3xl">
+				<li><a href="#" class="text-stone-50 text-4xl font-bold px-6">Home</a></li>
+				<li><a href="#aboutme" class="text-stone-50 text-4xl font-bold px-6">About</a></li>
+				<li><a href="#services" class="text-stone-50 text-4xl font-bold px-6">Services</a></li>
+				<li><a href="#portfolio" class="text-stone-50 text-4xl font-bold px-6">Portfolio</a></li>
+				<li><a href="#statistics" class="text-stone-50 text-4xl font-bold px-6">Statistics</a></li>
+				<li><a href="#contact" class="text-stone-50 text-4xl font-bold px-6">Contact Me</a></li>
+			</ul>
+			<div></div>
+		</nav>
+
+		<header class="bg-stone-900 p-4 fixed top-0 left-0 right-0">
+			<div class="max-w-6xl mx-auto flex justify-between">
+				<a class="text-2xl text-green-400" href="">Outer Space</a>
+				<label id="" class="cursor-pointer flex flex-col w-8 h-8 justify-between overflow-hidden z-10">
+					<input id="toggleNavigation" type="checkbox" class="peer appearance-none" />
+					<div class="bg-green-400 h-[2px] w-8 transition-all origin-left peer-checked:rotate-[42deg]"></div>
+					<div class="bg-green-400 h-[2px] w-8 transition-all peer-checked:bg-opacity-0"></div>
+					<div class="bg-green-400 h-[2px] w-8 transition-all origin-left peer-checked:-rotate-[42deg]"></div>
+				</label>
+			</div>
+		</header>
+		<main class="h-[48rem] bg-stone-900 flex flex-col gap-1 justify-center items-center">
+			<h1 class="text-2xl text-stone-400 text-center uppercase">Hi, my name is</h1>
+			<h1 class="text-6xl text-green-400 text-stone-100 text-center uppercase">Elon Musk.</h1>
+		</main>
+		<section id="aboutme" class="bg-stone-900">
+			<div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 md:px-6">
+				<div class="photo-of-person md:col-start-1 md:col-end-6">
+					<img class="object-cover" src="img/elon-musk-5.jpg" alt="" />
+				</div>
+				<div class="info-about-person md:col-start-7 md:col-end-13 flex flex-col gap-4 p-6">
+					<h1 class="text-stone-50 text-3xl lg:text-4xl">Hi, my name <span class="text-green-400">Elon Musk.</span></h1>
+					<p class="text-stone-300 lg:text-lg">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolores magnam facere, eveniet ipsa amet fugit cupiditate animi vitae commodi esse aliquam molestias.
+						Delectus aliquam error eius repudiandae magnam incidunt.
+					</p>
+					<div class="socials">
+						<ul class="flex flex-row gap-4">
+							<li class="bg-stone-700 hover:bg-stone-600 active:bg-stone-500 p-3 rounded-full">
+								<a class="" href="">
+									<svg class="w-8 h-8 fill-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 310" style="enable-background: new 0 0 310 310" xml:space="preserve">
+										<path
+											d="M81.703 165.106h33.981V305a5 5 0 0 0 5 5H178.3a5 5 0 0 0 5-5V165.765h39.064a5 5 0 0 0 4.967-4.429l5.933-51.502a5 5 0 0 0-4.966-5.572h-44.996V71.978c0-9.732 5.24-14.667 15.576-14.667h29.42a5 5 0 0 0 5-5V5.037a5 5 0 0 0-5-5h-40.545A39.746 39.746 0 0 0 185.896 0c-7.035 0-31.488 1.381-50.804 19.151-21.402 19.692-18.427 43.27-17.716 47.358v37.752H81.703a5 5 0 0 0-5 5v50.844a5 5 0 0 0 5 5.001z" />
+									</svg>
+								</a>
+							</li>
+							<li class="bg-stone-700 hover:bg-stone-600 active:bg-stone-500 p-3 rounded-full">
+								<a class="" href="">
+									<svg class="w-8 h-8 fill-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 310" style="enable-background: new 0 0 310 310" xml:space="preserve">
+										<path
+											d="M302.973 57.388a117.512 117.512 0 0 1-14.993 5.463 66.276 66.276 0 0 0 13.494-23.73 5 5 0 0 0-7.313-5.824 117.994 117.994 0 0 1-34.878 13.783c-12.381-12.098-29.197-18.983-46.581-18.983-36.695 0-66.549 29.853-66.549 66.547 0 2.89.183 5.764.545 8.598C101.163 99.244 58.83 76.863 29.76 41.204a5.001 5.001 0 0 0-8.196.642c-5.896 10.117-9.013 21.688-9.013 33.461 0 16.035 5.725 31.249 15.838 43.137a56.37 56.37 0 0 1-8.907-3.977 5 5 0 0 0-7.427 4.257c-.007.295-.007.59-.007.889 0 23.935 12.882 45.484 32.577 57.229a57.372 57.372 0 0 1-5.063-.735 4.998 4.998 0 0 0-5.699 6.437c7.29 22.76 26.059 39.501 48.749 44.605-18.819 11.787-40.34 17.961-62.932 17.961a120.4 120.4 0 0 1-14.095-.826 5 5 0 0 0-3.286 9.174c29.023 18.609 62.582 28.445 97.047 28.445 67.754 0 110.139-31.95 133.764-58.753 29.46-33.421 46.356-77.658 46.356-121.367 0-1.826-.028-3.67-.084-5.508 11.623-8.757 21.63-19.355 29.773-31.536a5 5 0 0 0-6.182-7.351z" />
+									</svg>
+								</a>
+							</li>
+							<li class="bg-stone-700 hover:bg-stone-600 active:bg-stone-500 p-3 rounded-full">
+								<a class="" href="">
+									<svg class="w-8 h-8 fill-green-500" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+										<path d="M16 7a1 1 0 1 1 2 0 1 1 0 0 1-2 0Z" fill="#22c55e" />
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M12 7.25a4.75 4.75 0 1 0 0 9.5 4.75 4.75 0 0 0 0-9.5ZM8.75 12a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Z"
+											fill="#22c55e" />
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M17.258 2.833a47.721 47.721 0 0 0-10.516 0c-2.012.225-3.637 1.81-3.873 3.832a45.922 45.922 0 0 0 0 10.67c.236 2.022 1.86 3.607 3.873 3.832 3.466.387 7.05.387 10.516 0 2.012-.225 3.637-1.81 3.873-3.832a45.914 45.914 0 0 0 0-10.67c-.236-2.022-1.86-3.607-3.873-3.832Zm-10.35 1.49a46.22 46.22 0 0 1 10.184 0c1.33.15 2.395 1.199 2.55 2.517a44.421 44.421 0 0 1 0 10.32c-.155 1.318-1.22 2.368-2.55 2.516a46.217 46.217 0 0 1-10.184 0c-1.33-.148-2.395-1.198-2.55-2.516a44.421 44.421 0 0 1 0-10.32c.155-1.318 1.22-2.368 2.55-2.516Z"
+											fill="#22c55e" />
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="contact-me">
+						<h2 class="text-stone-50 text-xl lg:text-2xl">You can contact me here</h2>
+						<div class="text-stone-300 lg:text-lg">Email: <a class="text-green-500" href="mailto:">elonmusk@elonmusk.com</a></div>
+						<div class="text-stone-300 lg:text-lg">Phone: <a class="text-green-500" href="#">58-12345</a></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="services" class="bg-stone-900">
+			<h2 class="text-3xl text-center text-stone-400 pt-32">What i do</h2>
+			<h1 class="text-5xl text-center text-green-400">My services</h1>
+			<div class="max-w-6xl mx-auto grid grid-cols-1 gap-32 md:grid-cols-3 pt-32 px-6">
+				<div class="service flex flex-col items-center gap-6">
+					<svg class="w-20 h-20 fill-green-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58 58" style="enable-background: new 0 0 58 58" xml:space="preserve">
+						<path
+							d="M50.688 48.222C55.232 43.101 58 36.369 58 29c0-7.667-2.996-14.643-7.872-19.834v-.001c-.004-.006-.01-.008-.013-.013C45.036 3.753 37.92.297 30.005.026l-.001-.001-.565-.015C29.293.005 29.147 0 29 0s-.293.005-.439.01l-.563.015-.001.001c-7.915.271-15.031 3.727-20.11 9.126-.004.005-.01.007-.013.013l-.001.002C2.996 14.357 0 21.333 0 29c0 7.369 2.768 14.101 7.312 19.222.006.009.006.019.013.028.018.025.044.037.063.06 5.106 5.708 12.432 9.385 20.608 9.665l.001.001.563.015c.147.004.293.009.44.009s.293-.005.439-.01l.563-.015.001-.001c8.185-.281 15.519-3.965 20.625-9.685.013-.017.034-.022.046-.04.008-.008.008-.018.014-.027zM2.025 30h12.003a36.956 36.956 0 0 0 2.415 12.217 36.873 36.873 0 0 0-8.111 4.131A26.875 26.875 0 0 1 2.025 30zm6.853-18.977a36.783 36.783 0 0 0 7.9 3.882A36.927 36.927 0 0 0 14.028 28H2.025a26.882 26.882 0 0 1 6.853-16.977zM55.975 28H43.972a36.927 36.927 0 0 0-2.75-13.095 36.783 36.783 0 0 0 7.9-3.882A26.882 26.882 0 0 1 55.975 28zM28 14.963a34.958 34.958 0 0 1-8.471-1.283A34.988 34.988 0 0 1 28 2.644v12.319zm0 2V28H16.028a34.926 34.926 0 0 1 2.666-12.475A36.948 36.948 0 0 0 28 16.963zm2 0c3.179-.085 6.3-.566 9.307-1.438A34.926 34.926 0 0 1 41.973 28H30V16.963zm0-2V2.644a34.988 34.988 0 0 1 8.471 11.036A34.958 34.958 0 0 1 30 14.963zm10.409-1.891a36.93 36.93 0 0 0-7.888-10.835 26.922 26.922 0 0 1 15.183 7.318 34.782 34.782 0 0 1-7.295 3.517zm-22.818 0a34.75 34.75 0 0 1-7.294-3.517A26.92 26.92 0 0 1 25.48 2.237a36.915 36.915 0 0 0-7.889 10.835zM16.028 30H28v10.038a36.883 36.883 0 0 0-9.661 1.541A34.924 34.924 0 0 1 16.028 30zM28 42.038v13.318a34.97 34.97 0 0 1-8.884-11.917A34.867 34.867 0 0 1 28 42.038zm2 13.318V42.038c3.039.085 6.017.556 8.884 1.4A34.964 34.964 0 0 1 30 55.356zm0-15.318V30h11.972a34.91 34.91 0 0 1-2.312 11.58A36.828 36.828 0 0 0 30 40.038zM43.972 30h12.003a26.87 26.87 0 0 1-6.307 16.348 36.873 36.873 0 0 0-8.111-4.131A36.93 36.93 0 0 0 43.972 30zM9.691 47.846a34.85 34.85 0 0 1 7.517-3.781 36.9 36.9 0 0 0 8.271 11.698c-6.151-.805-11.656-3.685-15.788-7.917zm22.83 7.917a36.878 36.878 0 0 0 8.271-11.698 34.874 34.874 0 0 1 7.517 3.781c-4.132 4.232-9.637 7.112-15.788 7.917z" />
+					</svg>
+					<h1 class="text-stone-200 text-2xl text-center">Providing satellite Internet access coverage to 40 countries</h1>
+				</div>
+				<div class="service flex flex-col items-center gap-6">
+					<svg class="w-20 h-20 fill-green-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 463 463" style="enable-background: new 0 0 463 463" xml:space="preserve">
+						<path
+							d="M151.245 222.446C148.054 237.039 135.036 248 119.5 248c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5c23.774 0 43.522-17.557 46.966-40.386 14.556-1.574 27.993-8.06 38.395-18.677a7.501 7.501 0 0 0-10.715-10.498C184.947 202.829 172.643 208 159.5 208c-26.743 0-48.5-21.757-48.5-48.5 0-4.143-3.358-7.5-7.5-7.5s-7.5 3.357-7.5 7.5c0 32.215 24.119 58.884 55.245 62.946zM183 287.5a7.5 7.5 0 0 0-7.5-7.5c-35.014 0-63.5 28.486-63.5 63.5 0 .362.013.725.019 1.088A63.688 63.688 0 0 0 103.5 344c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5c26.743 0 48.5 21.757 48.5 48.5 0 4.143 3.358 7.5 7.5 7.5s7.5-3.357 7.5-7.5c0-26.611-16.462-49.437-39.731-58.867A49.345 49.345 0 0 1 127 343.5c0-26.743 21.757-48.5 48.5-48.5a7.5 7.5 0 0 0 7.5-7.5z" />
+						<path
+							d="M439 223.5a63.325 63.325 0 0 0-18.875-45.156A62.992 62.992 0 0 0 423 159.5c0-30.874-22.152-56.659-51.394-62.329A47.356 47.356 0 0 0 375 79.5c0-19.557-11.883-36.387-28.806-43.661C317.999 13.383 287.162 0 263.5 0c-13.153 0-24.817 6.468-32 16.384C224.317 6.468 212.653 0 199.5 0c-23.662 0-54.499 13.383-82.694 35.839C99.883 43.113 88 59.943 88 79.5c0 6.128 1.159 12.1 3.394 17.671C62.152 102.841 40 128.626 40 159.5c0 6.418.965 12.735 2.875 18.844A63.325 63.325 0 0 0 24 223.5c0 13.348 4.149 25.741 11.213 35.975C27.872 270.087 24 282.466 24 295.5c0 23.088 12.587 44.242 32.516 55.396A72.118 72.118 0 0 0 56 359.5c0 31.144 20.315 58.679 49.79 68.063C118.611 449.505 141.965 463 167.5 463c27.995 0 52.269-16.181 64-39.674 11.731 23.493 36.005 39.674 64 39.674 25.535 0 48.889-13.495 61.71-35.437 29.475-9.385 49.79-36.92 49.79-68.063 0-2.874-.173-5.752-.516-8.604C426.413 339.742 439 318.588 439 295.5c0-13.034-3.872-25.413-11.213-36.025C434.851 249.241 439 236.848 439 223.5zM167.5 448c-21.029 0-40.191-11.594-50.009-30.256a7.5 7.5 0 0 0-4.688-3.751C88.19 407.369 71 384.961 71 359.5c0-3.81.384-7.626 1.141-11.344a7.501 7.501 0 0 0-4.302-8.35C50.32 332.018 39 314.626 39 295.5c0-8.699 2.256-17.014 6.561-24.379C56.757 280.992 71.436 287 87.5 287c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5C60.757 272 39 250.243 39 223.5c0-14.396 6.352-27.964 17.428-37.221a7.5 7.5 0 0 0 2.14-8.574A48.204 48.204 0 0 1 55 159.5c0-26.743 21.757-48.5 48.5-48.5s48.5 21.757 48.5 48.5c0 4.143 3.358 7.5 7.5 7.5s7.5-3.357 7.5-7.5c0-33.642-26.302-61.243-59.421-63.355C104.577 91.127 103 85.421 103 79.5c0-13.369 8.116-24.875 19.678-29.859a7.41 7.41 0 0 0 1.308-.527A32.325 32.325 0 0 1 135.5 47c12.557 0 23.767 7.021 29.256 18.325a7.498 7.498 0 0 0 10.023 3.47 7.498 7.498 0 0 0 3.47-10.022c-6.266-12.903-18.125-22.177-31.782-25.462C165.609 21.631 184.454 15 199.5 15c13.509 0 24.5 10.99 24.5 24.5v97.051c-6.739-5.346-15.25-8.551-24.5-8.551-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5c13.509 0 24.5 10.99 24.5 24.5v180.279c-9.325-12.031-22.471-21.111-37.935-25.266a7.5 7.5 0 1 0-3.892 14.486C206.8 343.616 224 366.027 224 391.5c0 31.154-25.346 56.5-56.5 56.5zm227.661-108.193a7.5 7.5 0 0 0-4.302 8.35A56.975 56.975 0 0 1 392 359.501c0 25.461-17.19 47.869-41.803 54.493a7.497 7.497 0 0 0-4.688 3.751C335.691 436.406 316.529 448 295.5 448c-31.154 0-56.5-25.346-56.5-56.5 0-2.109-.098-4.2-.281-6.271a7.503 7.503 0 0 0 .281-2.012V135.5c0-13.51 10.991-24.5 24.5-24.5 4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5c-9.25 0-17.761 3.205-24.5 8.551V39.5c0-13.51 10.991-24.5 24.5-24.5 15.046 0 33.891 6.631 53.033 18.311-13.657 3.284-25.516 12.559-31.782 25.462a7.498 7.498 0 0 0 3.47 10.022 7.499 7.499 0 0 0 10.023-3.47C303.733 54.021 314.943 47 327.5 47c4.053 0 7.933.752 11.514 2.114.422.22.86.393 1.305.526C351.883 54.624 360 66.13 360 79.5c0 5.921-1.577 11.627-4.579 16.645C322.302 98.257 296 125.858 296 159.5c0 4.143 3.358 7.5 7.5 7.5s7.5-3.357 7.5-7.5c0-26.743 21.757-48.5 48.5-48.5s48.5 21.757 48.5 48.5c0 6.244-1.2 12.369-3.567 18.205a7.5 7.5 0 0 0 2.14 8.574C417.648 195.536 424 209.104 424 223.5c0 26.743-21.757 48.5-48.5 48.5-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5c16.064 0 30.743-6.008 41.939-15.879 4.306 7.365 6.561 15.68 6.561 24.379 0 19.126-11.32 36.518-28.839 44.307z" />
+						<path
+							d="M359.5 240c-15.536 0-28.554-10.961-31.745-25.554C358.881 210.384 383 183.715 383 151.5c0-4.143-3.358-7.5-7.5-7.5s-7.5 3.357-7.5 7.5c0 26.743-21.757 48.5-48.5 48.5-13.143 0-25.447-5.171-34.646-14.561a7.5 7.5 0 0 0-10.715 10.498c10.402 10.617 23.839 17.103 38.395 18.677C315.978 237.443 335.726 255 359.5 255c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5zM335.5 328c-2.89 0-5.73.212-8.519.588.006-.363.019-.726.019-1.088 0-35.014-28.486-63.5-63.5-63.5-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5c26.743 0 48.5 21.757 48.5 48.5a49.36 49.36 0 0 1-.269 5.133C288.462 342.063 272 364.889 272 391.5c0 4.143 3.358 7.5 7.5 7.5s7.5-3.357 7.5-7.5c0-26.743 21.757-48.5 48.5-48.5 4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5z" />
+					</svg>
+					<h1 class="text-stone-200 text-2xl text-center">Implantable high bandwidth brain brain–machine interfaces</h1>
+				</div>
+				<div class="service flex flex-col items-center gap-6">
+					<svg class="w-20 h-20 fill-green-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511.001 511.001">
+						<path
+							d="M255.5 112c-30.603 0-55.5 24.897-55.5 55.5s24.897 55.5 55.5 55.5 55.5-24.897 55.5-55.5-24.897-55.5-55.5-55.5zm0 96c-22.332 0-40.5-18.168-40.5-40.5s18.168-40.5 40.5-40.5 40.5 18.168 40.5 40.5-18.168 40.5-40.5 40.5z" />
+						<path d="M255.5 144a7.5 7.5 0 0 0 0 15c4.687 0 8.5 3.813 8.5 8.5a7.5 7.5 0 0 0 15 0c0-12.958-10.542-23.5-23.5-23.5z" />
+						<path
+							d="m379.812 379.735-47.586-74.389C338.825 241.34 343 186.471 343 159.5c0-55.897-22.646-95.938-41.644-119.686-20.605-25.756-41.134-38.228-41.998-38.746a7.501 7.501 0 0 0-7.718 0c-.864.518-21.393 12.99-41.998 38.746C190.646 63.562 168 103.603 168 159.5c0 26.972 4.176 81.841 10.774 145.847l-47.595 74.403A71.381 71.381 0 0 0 120 418.137V503.5a7.498 7.498 0 0 0 7.499 7.5 7.5 7.5 0 0 0 5.806-2.751l61.127-74.71C198.674 446.112 210.578 455 224.244 455H248v48.5a7.5 7.5 0 0 0 15 0V455h23.756c13.667 0 25.57-8.888 29.813-21.461l61.126 74.71A7.501 7.501 0 0 0 391 503.5v-85.363a71.397 71.397 0 0 0-11.188-38.402zM135 418.137a56.39 56.39 0 0 1 8.824-30.318l37.479-58.59a4697.92 4697.92 0 0 0 9.959 84.496L135 482.489v-64.352zM286.757 440H263V311.5a7.5 7.5 0 0 0-15 0V440h-23.756c-8.239 0-15.259-6.183-16.328-14.381a4656.45 4656.45 0 0 1-13.915-118.782 7.553 7.553 0 0 0-.087-.838C187.237 241.614 183 186.388 183 159.5c0-29.053 6.373-56.004 18.975-80.5H263.5a7.5 7.5 0 0 0 0-15h-52.83a183.342 183.342 0 0 1 10.312-14.346c13.88-17.468 27.928-28.459 34.516-33.129 8.182 5.813 27.891 21.447 44.697 47.475H295.5a7.5 7.5 0 0 0 0 15h13.369C319.846 100.359 328 127.117 328 159.5c0 26.887-4.237 82.116-10.914 146.502a7.579 7.579 0 0 0-.086.826 4653.69 4653.69 0 0 1-13.916 118.791c-1.069 8.199-8.088 14.381-16.327 14.381zM376 482.489l-56.262-68.765a4688.853 4688.853 0 0 0 9.959-84.496l37.469 58.575a56.406 56.406 0 0 1 8.833 30.333v64.353z" />
+					</svg>
+					<h1 class="text-stone-200 text-2xl text-center">Designing, manufacturing and launching rockets and satellites into space</h1>
+				</div>
+			</div>
+		</section>
+		<section id="portfolio" class="bg-stone-900">
+			<h2 class="text-3xl text-center text-stone-400 pt-52">What I've done</h2>
+			<h1 class="text-5xl text-center text-green-400">My portfolio</h1>
+			<div class="max-w-6xl mx-auto grid gap-24 pt-52 px-6">
+				<div class="project flex flex-col lg:flex-row">
+					<div class="project-image flex-1">
+						<img class="object-cover h-full" src="img/portfolio-tesla.jpg" alt="" />
+					</div>
+					<div class="project-info flex flex-col flex-1 gap-3 pt-4 px-6 lg:justify-center lg:p-16">
+						<h2 class="text-stone-400 text-lg lg:text-xl">Cars</h2>
+						<h1 class="text-stone-100 text-3xl lg:text-4xl">Tesla, Inc.</h1>
+						<p class="text-stone-400 text-md lg:text-lg">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ullam at laudantium. Repudiandae, debitis fugiat iusto, sapiente magni quos ipsa explicabo sunt molestias
+							corporis expedita ullam tempora deleniti? Voluptas, assumenda.
+						</p>
+						<a class="text-xl text-green-400 hover:underline" href="">View project</a>
+					</div>
+				</div>
+				<div class="project flex flex-col lg:flex-row flex-1">
+					<div class="project-image flex-1">
+						<img class="object-cover h-full" src="img/portfolio-spacex.jpg" alt="" />
+					</div>
+					<div class="project-info flex flex-col flex-1 gap-3 pt-4 px-6 lg:justify-center lg:p-16 lg:order-first">
+						<h2 class="text-stone-400 text-lg lg:text-xl">Rockets</h2>
+						<h1 class="text-stone-100 text-3xl lg:text-4xl">SpaceX.</h1>
+						<p class="text-stone-400 text-md lg:text-lg">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi ratione asperiores excepturi, inventore cupiditate exercitationem voluptates facilis quod repudiandae
+							veritatis quos voluptatum? Voluptatibus minus sit necessitatibus esse illum sed numquam.
+						</p>
+						<a class="text-xl text-green-400 hover:underline" href="">View project</a>
+					</div>
+				</div>
+				<div class="project flex flex-col lg:flex-row">
+					<div class="project-image flex-1">
+						<img class="object-cover h-full" src="img/portfolio-boring-company.webp" alt="" />
+					</div>
+					<div class="project-info flex flex-col flex-1 gap-3 pt-4 px-6 lg:justify-center lg:p-16">
+						<h2 class="text-stone-400 text-lg lg:text-xl">Tunneling</h2>
+						<h1 class="text-stone-100 text-3xl lg:text-4xl">The Boring Company.</h1>
+						<p class="text-stone-400 text-md lg:text-lg">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nam iure sed sequi nisi. Blanditiis reiciendis laboriosam aut maiores eveniet earum, assumenda quaerat
+							molestias neque officia nulla tempore possimus culpa?
+						</p>
+						<a class="text-xl text-green-400 hover:underline" href="">View project</a>
+					</div>
+				</div>
+				<div class="project flex flex-col lg:flex-row flex-1">
+					<div class="project-image flex-1">
+						<img class="object-cover h-full" src="img/portfolio-neuralink.jpg" alt="" />
+					</div>
+					<div class="project-info flex flex-col flex-1 gap-3 pt-4 px-6 lg:justify-center lg:p-16 lg:order-first">
+						<h2 class="text-stone-400 text-lg lg:text-xl">Brain interfaces</h2>
+						<h1 class="text-stone-100 text-3xl lg:text-4xl">Neuralink.</h1>
+						<p class="text-stone-400 text-md lg:text-lg">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam at nisi molestiae atque ullam obcaecati, dolorum quae veritatis possimus illum, commodi quidem nihil
+							repudiandae dolorem omnis optio id amet minima!
+						</p>
+						<a class="text-xl text-green-400 hover:underline" href="">View project</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="statistics" class="bg-stone-900">
+			<h2 class="text-3xl text-center text-stone-400 pt-52">Fun facts</h2>
+			<h1 class="text-5xl text-center text-green-400">Some statistic</h1>
+
+			<div class="statistic max-w-6xl mx-auto flex flex-col gap-16 md:gap-32 pt-52 px-6">
+				<div class="statistic-item flex flex-col gap-4">
+					<h3 class="text-2xl text-stone-400 uppercase">Launched Spacecraft</h3>
+					<h2 class="text-5xl md:text-8xl text-green-400">180</h2>
+				</div>
+				<div class="statistic-item flex flex-col md:items-center gap-4">
+					<h3 class="text-2xl text-stone-400 uppercase">Tesla Cars Sold</h3>
+					<h2 class="text-5xl md:text-8xl text-green-400">1.000.000+</h2>
+				</div>
+				<div class="statistic-item flex flex-col md:items-end gap-4">
+					<h3 class="text-2xl text-stone-400 uppercase">Net Worth</h3>
+					<h2 class="text-5xl md:text-8xl text-green-400">250B+</h2>
+				</div>
+			</div>
+		</section>
+		<footer id="contact" class="bg-stone-900">
+			<div class="socials">
+				<ul class="flex flex-row justify-center gap-4 pt-52">
+					<li class="bg-stone-700 hover:bg-stone-600 active:bg-stone-500 p-3 rounded-full">
+						<a class="" href="">
+							<svg class="w-8 h-8 fill-green-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 310" style="enable-background: new 0 0 310 310" xml:space="preserve">
+								<path
+									d="M81.703 165.106h33.981V305a5 5 0 0 0 5 5H178.3a5 5 0 0 0 5-5V165.765h39.064a5 5 0 0 0 4.967-4.429l5.933-51.502a5 5 0 0 0-4.966-5.572h-44.996V71.978c0-9.732 5.24-14.667 15.576-14.667h29.42a5 5 0 0 0 5-5V5.037a5 5 0 0 0-5-5h-40.545A39.746 39.746 0 0 0 185.896 0c-7.035 0-31.488 1.381-50.804 19.151-21.402 19.692-18.427 43.27-17.716 47.358v37.752H81.703a5 5 0 0 0-5 5v50.844a5 5 0 0 0 5 5.001z" />
+							</svg>
+						</a>
+					</li>
+					<li class="bg-stone-700 hover:bg-stone-600 active:bg-stone-500 p-3 rounded-full">
+						<a class="" href="">
+							<svg class="w-8 h-8 fill-green-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 310" style="enable-background: new 0 0 310 310" xml:space="preserve">
+								<path
+									d="M302.973 57.388a117.512 117.512 0 0 1-14.993 5.463 66.276 66.276 0 0 0 13.494-23.73 5 5 0 0 0-7.313-5.824 117.994 117.994 0 0 1-34.878 13.783c-12.381-12.098-29.197-18.983-46.581-18.983-36.695 0-66.549 29.853-66.549 66.547 0 2.89.183 5.764.545 8.598C101.163 99.244 58.83 76.863 29.76 41.204a5.001 5.001 0 0 0-8.196.642c-5.896 10.117-9.013 21.688-9.013 33.461 0 16.035 5.725 31.249 15.838 43.137a56.37 56.37 0 0 1-8.907-3.977 5 5 0 0 0-7.427 4.257c-.007.295-.007.59-.007.889 0 23.935 12.882 45.484 32.577 57.229a57.372 57.372 0 0 1-5.063-.735 4.998 4.998 0 0 0-5.699 6.437c7.29 22.76 26.059 39.501 48.749 44.605-18.819 11.787-40.34 17.961-62.932 17.961a120.4 120.4 0 0 1-14.095-.826 5 5 0 0 0-3.286 9.174c29.023 18.609 62.582 28.445 97.047 28.445 67.754 0 110.139-31.95 133.764-58.753 29.46-33.421 46.356-77.658 46.356-121.367 0-1.826-.028-3.67-.084-5.508 11.623-8.757 21.63-19.355 29.773-31.536a5 5 0 0 0-6.182-7.351z" />
+							</svg>
+						</a>
+					</li>
+					<li class="bg-stone-700 hover:bg-stone-600 active:bg-stone-500 p-3 rounded-full">
+						<a class="" href="">
+							<svg class="w-8 h-8 fill-green-50" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path d="M16 7a1 1 0 1 1 2 0 1 1 0 0 1-2 0Z" fill="#f0fdf4" />
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M12 7.25a4.75 4.75 0 1 0 0 9.5 4.75 4.75 0 0 0 0-9.5ZM8.75 12a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Z"
+									fill="#f0fdf4" />
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M17.258 2.833a47.721 47.721 0 0 0-10.516 0c-2.012.225-3.637 1.81-3.873 3.832a45.922 45.922 0 0 0 0 10.67c.236 2.022 1.86 3.607 3.873 3.832 3.466.387 7.05.387 10.516 0 2.012-.225 3.637-1.81 3.873-3.832a45.914 45.914 0 0 0 0-10.67c-.236-2.022-1.86-3.607-3.873-3.832Zm-10.35 1.49a46.22 46.22 0 0 1 10.184 0c1.33.15 2.395 1.199 2.55 2.517a44.421 44.421 0 0 1 0 10.32c-.155 1.318-1.22 2.368-2.55 2.516a46.217 46.217 0 0 1-10.184 0c-1.33-.148-2.395-1.198-2.55-2.516a44.421 44.421 0 0 1 0-10.32c.155-1.318 1.22-2.368 2.55-2.516Z"
+									fill="#f0fdf4" />
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="flex flex-col pt-16 gap-4">
+				<h1 class="text-3xl text-stone-400 text-center">Contact Me</h1>
+				<h1 class="text-3xl text-green-400 text-center">elonmusk@elonmusk.com</h1>
+			</div>
+			<p class="text-center text-stone-400 py-16">Code by <a href="">elvarp.is</a></p>
+		</footer>
+	</body>
+</html>
